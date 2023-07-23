@@ -42,6 +42,8 @@ public class AutenticacionSegurity {
 
         // Imprimimos la cadena string del access_token
         System.out.println("access_token: " + access_token);
+        System.out.println("expiracion: " + expiration);
+
 
         return access_token;
     }
